@@ -1,6 +1,6 @@
 # vulnerable-moisture-sensor
 
-## A Go app for a moisture sensor running on Raspberry Pi for exposing two NIST CVE's
+## A Go app for a moisture sensor running on Raspberry Pi that exposes two NIST CVE's
 https://nvd.nist.gov/vuln/detail/CVE-2024-5433
 “The Campbell Scientific CSI Web Server supports a command that will return the most recent file that matches a given expression. A specially crafted expression can lead to a path traversal vulnerability. This command combined with a specially crafted expression allows anonymous, unauthenticated access (allowed by default) by an attacker to files and directories outside of the web server root directory they should be restricted to.”
 
