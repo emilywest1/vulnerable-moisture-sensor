@@ -1,4 +1,27 @@
 h2 {
     text-align: center;
-    color: rgba(240, 24, 215, 0.859);
+    color: rgb(254, 120, 67);
+    font-family: Cambria;
+    font-size: xxx-large;
+    background-color: rgb(255, 237, 211);
+    padding: 20px;
+}
+
+body {
+    background-color: #daf7fd;
+    font-family: Cambria;
+    padding: 2px;
+}
+
+button {
+    background-color: rgb(251, 248, 244);
+    padding: 10px;
+    border-width: 5px;
+    border-color: rgba(254, 120, 67, 0.519);
+    border-style: groove;
+
+    font-family: Cambria;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(254, 120, 67);
 }
