@@ -21,7 +21,7 @@ func runCommand(name string, args ...string) {
 func getCWD() string {
 	dir, err := os.Getwd()
 	if err != nil {
-		log.Fatalf("Unable to get working directory: %v", err)
+		log.Fatalf("Failed gettign working directory: %v", err)
 	}
 	return dir
 }
@@ -36,8 +36,6 @@ func main() {
 
 	log.Println("Apache server started at http://localhost:8080		IP Address:")
 
-	
-b
 	fmt.Println("\nPress 'Enter' to close")
 	bufio.NewReader(os.Stdin).ReadBytes('\n')
 
